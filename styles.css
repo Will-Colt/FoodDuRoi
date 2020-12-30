@@ -33,7 +33,6 @@ section {
   background-image: url(background.jpeg);
   background-position: top center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -84,8 +83,6 @@ ul {
   justify-content: space-between;
 }
 
-
-
 li {
   margin: 0 5px;
 
@@ -103,7 +100,6 @@ li {
 .social__media{
   height: 30px;
 }
-
 
 .cheese{
   position: absolute;
@@ -138,7 +134,6 @@ li {
   position: relative;
   top: -60px;
 
-
 }
 
 .container__menu{
@@ -149,8 +144,22 @@ li {
   background-color: ivory;
   z-index: 100;
   left: 101vw;
-
   transition: 2s ease-in-out 0s;
+  opacity: 0;
+}
+
+.container__menu{
+  background-color: lightcoral;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#close__button{
+  margin: 20px 30px;
+  opacity: 0;
+  transition: 1s ease-in-out 2s;
+
 
 }
 
